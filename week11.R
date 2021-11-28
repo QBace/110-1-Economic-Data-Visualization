@@ -18,7 +18,7 @@ plot(ggplot(mdata, aes(x = Year, y = value, fill = variable)) +
   scale_y_continuous (expand = c(0,0))+
   labs( title = "台灣能源供給",
         subtitle = "Energy Supply")+
-  scale_fill_manual(values=c("green","grey","blue","orange","brown"),
+  scale_fill_manual(values=c("#73a74d","#e0872e","#56a8d5","#9d9fa3","#c15f48"),
                     name="能源供給之原料",
                     labels=c("再生能源","核能","天然氣","煤及煤產品","原油及石油產品")
   )
