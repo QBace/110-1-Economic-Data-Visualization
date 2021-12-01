@@ -30,3 +30,4 @@ ggplot(data5, aes(x = year, y = value, fill = variable)) + #依照x(year)做排�
   scale_fill_manual(values =c("#57a9d5","#999b9f","#c2604a","#5eb7b6","#73a74d","#e1872e"), #圖示顏色
                     names(NULL), #圖示標題取消null
                     labels=c("抽蓄水力\nPumped Hydro","燃煤\nCoal-Fired","燃油\nOil-Fired","燃氣LNG-Fired","再生能源\nRenewable Energy","核能\nNuclear")#圖示文字
+)
