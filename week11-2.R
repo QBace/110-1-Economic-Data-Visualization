@@ -26,8 +26,7 @@ ggplot(data5, aes(x = year, y = value, fill = variable)) + #依照x(year)做排�
    geom_hline(yintercept =0.75,color="red",linetype=5,size=0.3,alpha=0.3)+  #75%虛線
   scale_y_continuous ("佔比",labels = percent,expand = c(0,0))+ #y軸美學
   scale_x_continuous ("西元",expand = c(0,0))+ #x軸美學
-  labs( title = "歷年台電系統發電廠裝置容量表",subtitle = "Structure of Electricity Installed Capacity",caption = "資料來源：經濟部能源局\n歷年台電系統發電廠裝置容量表")+ #標題與副標題
+  labs( title = "歷年台電發電量",subtitle = "Electricity Generation",caption = "資料來源：經濟部能源局\n歷年台電發電量2002-2020年")+ #標題與副標題
   scale_fill_manual(values =c("#57a9d5","#999b9f","#c2604a","#5eb7b6","#73a74d","#e1872e"), #圖示顏色
                     names(NULL), #圖示標題取消null
-                    labels=c("抽蓄水力\nPumped Hydro","燃煤\nCoal-Fired","燃油\nOil-Fired","燃氣LNG-Fired","再生能源\nRenewable Energy","核能\nNuclear")#圖示文字 
-  )
+                    labels=c("抽蓄水力\nPumped Hydro","燃煤\nCoal-Fired","燃油\nOil-Fired","燃氣LNG-Fired","再生能源\nRenewable Energy","核能\nNuclear")#圖示文字
