@@ -32,9 +32,9 @@ p1$high_max[p1$商品及服務輸出佔比 <= p1$ 商品及服務輸入佔比] =
     geom_label(aes(x=2014,y=0.62,label="貿易順差"),size=3.6,color="#6fc063")+
     geom_label(aes(x=1994,y=0.41,label="貿易逆差"),size=3.6,color="#b7524c")+
     geom_vline(xintercept = 2009,color ="#F067CF",linetype=5)+
-    geom_label(aes(x=2009,y=0.38,label="次\n貸\n風\n暴"),size=2.5,color="#F067CF")+
+    geom_label(aes(x=2009,y=0.74,label="次\n貸\n風\n暴"),size=2.5,color="#F067CF")+
     geom_vline(xintercept = 2001,color ="#F067CF",linetype=5)+
-    geom_label(aes(x=2001,y=0.11,label="網\n路\n泡\n沫"),size=2.5,color="#F067CF")+
+    geom_label(aes(x=2001,y=0.7,label="網\n路\n泡\n沫"),size=2.5,color="#F067CF")+
     geom_vline(xintercept = 1990,color ="#F067CF",linetype=5)+
     geom_label(aes(x=1990,y=0.6,label="第\n三\n次\n石\n油\n危\n機"),size=2.5,color="#F067CF")+
     geom_vline(xintercept = 1985,color ="#F067CF",linetype=5)+
